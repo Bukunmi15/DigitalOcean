@@ -1,0 +1,832 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+}
+
+
+/* .main{
+     position: sticky;
+} */
+
+.wordpress_performance {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #081B4B;
+    color: #D6DCEA;
+    padding: 5px 5px 0px 5px;
+}
+
+.wordpress_performance p {
+    font-size: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.wordpress_performance p a {
+    text-decoration: none;
+    color: #D6DCEA;
+}
+
+.wordpress_performance p a:hover {
+    color: #fff;
+}
+
+
+.wordpress_performance ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+
+}
+
+.wordpress_performance ul li {
+    padding-right: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.wordpress_performance ul li a {
+    text-decoration: none;
+    color: #D6DCEA;
+}
+
+
+.wordpress_performance ul li a:hover {
+    color: #fff;
+}
+
+
+.login {
+    /* border: 1px solid black ; */
+    padding: 20px;
+
+}
+
+
+.logo_top {
+    display: flex;
+    gap: 10px;
+}
+
+.logo_top h3 {
+    font-weight: bold;
+    color: #0069FF;
+}
+
+.list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-left: -140px;
+    margin-top: -30px;
+}
+
+.list ul li {
+    font-weight: 750;
+}
+
+
+.list ul li a {
+    text-decoration: none;
+    color: #24335A;
+}
+
+
+.list ul li a:hover {
+    background-color: #E3E8F4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sign_up {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: -40px;
+}
+
+
+.sign_up a {
+    text-decoration: none;
+    color: #24335A;
+}
+
+.sign_up a:hover {
+    background: #E3E8F4;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.Free {
+    /* border: 1px solid black; */
+    padding: 10px;
+    background: #081B4B;
+    transition: 1s ease
+}
+
+.Free:hover {
+    background: #15CD72;
+    color: #fff;
+}
+
+.Free p {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.Free i {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+.intro img {
+    width: 100%;
+    background: #0069FF;
+}
+
+.blue {
+    background: #0069FF;
+    height: 70vh;
+}
+
+.blue h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 85px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.blue p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.Sign_up_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+
+.google_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.google_button img {
+    width: 20px;
+    background-color: #fff;
+}
+
+
+.google_button p {
+    color: #081b4b;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.github-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    padding: 10px 15px;
+    gap: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.github-button img {
+    width: 20px;
+    background: #fff;
+}
+
+.github-button p {
+    color: #081B4B;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.email_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00247C;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.email_button p {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.customers_buildings {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.vps h3 {
+    color: #0069FF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vps p {
+    font-size: 14px;
+    color: #4D5B7C;
+    font-weight: bold;
+}
+
+.globally h3 {
+    color: #0069FF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.globally p {
+    font-size: 14px;
+    color: #4D5B7C;
+    font-weight: bold;
+}
+
+.uptime h3 {
+    color: #0069FF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.uptime p {
+    font-size: 14px;
+    color: #4D5B7C;
+    font-weight: bold;
+}
+
+.customers h3 {
+    color: #0069FF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.customers p {
+    font-size: 14px;
+    color: #4D5B7C;
+    font-weight: bold;
+}
+
+
+
+.growth {
+    position: relative;
+    background-color: #E0EDFF;
+    height: 120vh;
+    padding: 40px 0px;
+}
+
+.growth h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #081B4B;
+}
+
+.loot_tv img {
+
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    z-index: 10;
+    width: 459px;
+
+}
+
+
+.box {
+
+    width: 450px;
+    padding: 32px 40px;
+    border-radius: 24px;
+    background-color: rgb(0, 105, 255);
+    position: relative;
+    margin: 62px -64px 0 0;
+    z-index: 10;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-img img {
+    max-width: 150px;
+}
+
+.arrows {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.arrow-right,
+.arrow-left {
+    padding: 12px 24px;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+
+}
+
+.arrow-right:hover,
+.arrow-left:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.wavess {
+    width: 100%;
+    height: 64px;
+    background-image: url(/Assets/images/wavess.svg);
+    background-color: white;
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+
+.contain {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.img-blue {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+
+
+}
+
+.garnish-blue {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    z-index: 1;
+
+}
+
+.waves{
+    /* width: 100%; */
+    height: 64px;
+    background-image: url(/Assets/images/buttom-wave.svg);
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+
+.eCommerce_store{
+     margin-top: 150px;
+}
+
+.eCommerce{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #002C9B;
+    border-radius: 24px;
+    box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
+}
+
+.build h4{
+    font-size: 30px;
+    padding: 10px 30px;
+    font-weight: 800;
+    color: #fff;
+    padding-top: 50px;
+}
+
+
+.build p{
+    padding: 10px 30px;
+    color: #fff;
+}
+
+
+.lighthouse img{
+    position: relative;
+    width: 150%;
+    float: right;
+    bottom: 0;
+    border-radius: 24px;
+    
+}
+
+.lighthouse img::after, ::before{
+    box-sizing: border-box;
+}
+
+
+.SMBs{
+    margin-top: 150px;
+}
+
+.SMBs h4{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #081B4B;
+}
+
+
+.SMBs p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #4D5B7C;
+}
+
+
+
+.cloud{
+    margin-top: 150px;
+}
+
+.cloud h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    color: #081B4B;
+}
+
+.cloud p{
+    text-align: center;
+    font-size: 15px;
+    color: #4D5B7C;
+}
+
+.cloud a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 10px;
+}
+
+
+.managed_hosting{
+    display: flex;
+    padding: 5px 20px;
+    gap: 20px;
+}
+
+.managed_hosting h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.virtual_machine{
+    display: flex;
+    padding: 5px 20px ;
+    gap: 20px;
+}
+
+
+.virtual_machine h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.Kubernetes{
+    display: flex;
+    padding: 5px 20px ;
+    gap: 20px;
+}
+
+.Kubernetes h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.app_platform{
+    display: flex;
+    padding: 5px 20px ;
+    gap: 20px;
+}
+
+.app_platform h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.managed_database{
+    display: flex;
+    padding: 5px 20px;
+    gap: 20px;
+}
+
+.managed_database h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.storage{
+    display: flex;
+    padding: 5px 20px;
+    gap: 20px;
+}
+
+.storage h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.experts{
+    margin-top: 150px;
+}
+
+.experts h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    color: #081B4B;
+}
+
+.experts p{
+    text-align: center;
+    font-size: 15px;
+    color: #4D5B7C
+}
+
+
+.second_wave{
+    width: 100%;
+    height: 64px;
+    background-image: url(/Assets/images/wave.svg);
+    background-color: #FFF;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+
+
+.start_building{
+    background: #7BDEFF;
+    height: 50vh;
+}
+
+.start_building h4{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: 800;
+    color: #081B4B;
+}
+
+
+.start_building button{
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 24px ;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #081B4B;
+    font-weight: bold;
+}
+
+.start_building input{
+    display: flex;
+  
+    margin: 0 auto;
+}
+
+
+.third_wave{
+    width: 100%;
+    height: 64px;
+    background-image: url(/Assets/images/blue\ wave.svg);
+    overflow: hidden;
+    margin-top: -60px;
+}
+
+
+.footer{
+    background: #0069FF;
+    height: 125vh;
+    text-align: center;
+    gap: 30px;
+    
+}
+
+
+.infos{
+    padding-top: 50px;
+    gap: 30px;
+}
+
+
+.Company h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(227, 232, 244);;
+}
+
+
+.Company a{
+    text-decoration: none;
+    color: rgb(227, 232, 244);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Company a:hover{
+    color: #C9DCEA;
+}
+
+.products h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(227,232,244);
+}
+
+.products a{
+    text-decoration: none;
+    color: rgb(227,232,244);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.products a:hover{
+    color: #C9DCEA;
+}
+
+.Community h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(227,232,244); 
+}
+
+.Community a{
+    text-decoration: none;
+    color: rgb(227,232,244);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Community a:hover{
+    color: #C9DCEA;
+}
+
+.solution h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(227,232,244); 
+}
+
+.solution a{
+    text-decoration: none;
+    color: rgb(227,232,244);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.solution a:hover{
+    color: #C9DCEA;
+}
+
+
+.Contact h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(227,232,244);  
+}
+
+.Contact a{
+    text-decoration: none;
+    color: rgb(227,232,244);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;          
+}
+
+
+.Contact a:hover{
+    color: #C9DCEA;
+}
+
+/* HORIZONTAL LINE  */
+.line{
+    width: 95%;
+    height: 1px;               
+    background: #fff;
+    margin: 0 auto;
+    
+}
+
+
+/* VERTICAL LINE */
+/* .line{
+    width: 1px;
+    height: 100%;
+    background: #000;
+} */
+
+.social_media{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px ;   
+}
+
+.social_media p{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+.platform ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.platform ul li a{
+    color: #fff;
+    background: rgb(121, 177, 255);
+    padding: 10px 10px ;
+    border-radius: 5px;
+}
+
+.platform ul li a:hover{
+    background:  rgb(37, 124, 247);
+}
+
+
+.footers-images{
+    display: flex;
+    
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footers-images img{
+    width: 47%;
+}
